@@ -1,0 +1,23 @@
+* commit 5d214056c046bcfd5abd60109d4b3d758ccc9e26 (HEAD -> task2)
+| Author: Pavel Izotov <258plugoff1@mail.ru>
+| Date:   Wed May 11 18:07:50 2022 +0300
+|
+|     Add history.txt
+|
+*   commit 9356adf4f0b3d49157e286937858f3d8dff0b6fe (origin/master, master)
+|\  Merge: 3a2e3f5 29e57cf
+| | Author: PaulIzotov <105224154+PaulIzotov@users.noreply.github.com>
+| | Date:   Wed May 11 18:01:43 2022 +0300
+| |
+| |     Merge pull request #1 from PaulIzotov/task1
+| |
+| |     Task1toMaster
+| |
+| * commit 29e57cfd2c35d783135ea95305d55a138b9f1b65 (origin/task1, task1)
+| | Author: Pavel Izotov <258plugoff1@mail.ru>
+| | Date:   Wed May 11 17:53:26 2022 +0300
+| |
+| |     Change second.txt
+| |
+| * commit 0cd892dc6b037ace74f5b3d3bea2345816832817
+| | Author: Pavel Izotov <258plugoff1@mail.ru>
