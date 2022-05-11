@@ -1,0 +1,222 @@
+    1  git --version
+    2  git status
+    3  pwd
+    4  git config --global user.email 258plugoff1@mail.ru
+    5  git config --global user.email
+    6  git config --global user.name "Pavel Izotov"
+    7  git config --global user.name
+    8  cat .gitconfig
+    9  git status
+   10  git config --global user.name
+   11  cat .gitconfig
+   12  pwd
+   13  explorer .
+   14  cd Izotov/
+   15  cd git/
+   16  cd repo/
+   17  git init
+   18  git status
+   19  git remote add origin git@github.com:PaulIzotov/origin.git
+   20  git status
+   21  touch first.txt
+   22  git add .
+   23  git commit -m "Adding first.txt"
+   24  git status
+   25  git branch task1
+   26  git branch -a
+   27  git checkout task1
+   28  touch second.txt
+   29  git add second.txt
+   30  git commit -m "Adding second.txt"
+   31  git status
+   32  notepad second.txt
+   33  git status
+   34  touch third.txt
+   35  git status
+   36  git add second.txt
+   37  git add third.txt
+   38  git status
+   39  git commit
+   40  git status
+   41  cd Izotov/git/repo/
+   42  git status
+   43  git commit
+   44  git status
+   45  git log
+   46  git push
+   47  git push --set-upstream origin task1
+   48  ssh-keygen -t rsa -C "258plugoff1@mail.ru"
+   49  cd .ssh/
+   50  cв user
+   51  cd users
+   52  git push --set-upstream origin task1
+   53  git fetch
+   54  git status
+   55  explorer
+   56  explorer .
+   57  cd Izotov/git/repo/
+   58  git checkout master
+   59  cd Izotov/git/repo/
+   60  git init
+   61  git status
+   62  git commit -m "Initial commit"
+   63  git log
+   64  git add
+   65  git add .
+   66  git commit -m "Initial commit"
+   67  touch first.txt
+   68  git add first.txt
+   69  git commit -m "Initial commit"
+   70  git remote add origin git@github.com:PaulIzotov/origin.git
+   71  git status
+   72  git push
+   73  git push --set-upstream origin master
+   74  git branches -a
+   75  git branch -a
+   76  git branch task1
+   77  git branch -a
+   78  git status
+   79  git checkout task1
+   80  touch empty.txt
+   81  git add empty.txt
+   82  git commit -m "Adding empty.txt"
+   83  git status
+   84  notepad empty.txt
+   85  git add empty.txt
+   86  git status
+   87  touch newfile.txt
+   88  git add newfile.txt
+   89  git commit
+   90  git status
+   91  git log
+   92  git push
+   93  git push --set-upstream origin task1
+   94  cd ..
+   95  cd repo_copy
+   96  git fetch
+   97  git init
+   98  git fetch
+   99  git status
+  100  git log
+  101  git pull
+  102  git branch --set-upstream-to<remote>/<branch> master
+  103  git pull origin master
+  104  git pull master master
+  105  git status
+  106  git pull
+  107  cd Izotov/git/repo_copy/
+  108  git log
+  109  git pull
+  110  git branch --set-upstream-to=master
+  111  cd ..
+  112  cd repo
+  113  git status
+  114  git log
+  115  cd ..
+  116  cd repo_copy/
+  117  git fetch
+  118  git pull
+  119  git remote add git@github.com:PaulIzotov/origin.git
+  120  git fetch
+  121  git log
+  122  git pull
+  123  git remote add origin git@github.com:PaulIzotov/origin.git
+  124  git log
+  125  git fetch
+  126  git log
+  127  git pull
+  128  git pull master master
+  129  git pull
+  130  git branch --set-upstream-to=origin/master
+  131  git pull git@github.com:PaulIzotov/origin.git
+  132  git log
+  133  git checkout task1
+  134  git pull git@github.com:PaulIzotov/origin.git
+  135  git remote add origin git@github.com:PaulIzotov/origin.git
+  136  git fetch
+  137  git pull git@github.com:PaulIzotov/origin.git
+  138  git log
+  139  touch newfile.txt
+  140  notepad empty.txt
+  141  git status
+  142  git touch anothernewfile.txt
+  143  touch anotherfile.txt
+  144  git status
+  145  git add .
+  146  git status
+  147  git commit -m "Adding anotherfile.txt"
+  148  git push
+  149  git checkout master
+  150  touch README.md
+  151  notepad README.md
+  152  git add README.md
+  153  git commit -m "Adding README.md"
+  154  git push
+  155  git push --set-upstream origin master
+  156  explorer .
+  157  cd Izotov/git/repo/
+  158  git init
+  159  git remote add origin git@github.com:PaulIzotov/origin.git
+  160  touch rirst.txt
+  161  git status
+  162  git add first.txt
+  163  git commit -m "Initial commit"
+  164  git log
+  165  git branch task1
+  166  git checkout task1
+  167  touch second.txt
+  168  git add second.txt
+  169  git commit -m "Add second.txt"
+  170  notepad second.txt
+  171  git add second.txt
+  172  touch third.txt
+  173  git add third.txt
+  174  git commit
+  175  git log
+  176  git push
+  177  git push --set-upstream origin master
+  178  git checkout master
+  179  git push --set-upstream origin task1
+  180  cd ..
+  181  cd copy/
+  182  git init
+  183  git remote add origin git@github.com:PaulIzotov/origin.git
+  184  git fetch
+  185  git pull
+  186  git pull origin master
+  187  git pull origin task1
+  188  git checkout task1
+  189  touch forth.txt
+  190  notepad second.txt
+  191  git status
+  192  git add .
+  193  git commit -m "Add forth.txt"
+  194  git push
+  195  git checkout master
+  196  touch README.md
+  197  notepad README.md
+  198  git add README.md
+  199  git commit -m "Add README.md"
+  200  git push
+  201  git push --set-upstream origin master
+  202  cd ..
+  203  cd repo/
+  204  git fetch
+  205  git pull
+  206  git checkout task1
+  207  git pull
+  208  git status
+  209  tree
+  210  git tree
+  211  notepad second.txt
+  212  git add second.txt
+  213  git commit -m "Change second.txt"
+  214  git push
+  215  git log
+  216  git checkout master
+  217  git fetch
+  218  git pull
+  219  git log --graph
+  220  git branch task2
+  221  git checkout task2
+  222  history
